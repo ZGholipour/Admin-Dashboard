@@ -12,6 +12,7 @@ import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 import MessageOutlinedIcon from "@mui/icons-material/MessageOutlined";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import ReportIcon from "@mui/icons-material/WorkOutline";
+import { Link } from "react-router-dom";
 import "./SideBar.css";
 
 export default function SideBar() {
@@ -21,10 +22,12 @@ export default function SideBar() {
         <div className="sideBarMenu">
           <h3 className="sidBarTitle">Dashboard</h3>
           <ul className="sideBarList">
-            <li className="sideBarListItem active">
-              <LineStyleIcon className="sideBarIcon" />
-              Home
-            </li>
+            <Link to="/" className="link">
+              <li className="sideBarListItem active">
+                <LineStyleIcon className="sideBarIcon" />
+                Home
+              </li>
+            </Link>
             <li className="sideBarListItem">
               <TimelineIcon className="sideBarIcon" />
               Analytics
@@ -40,17 +43,23 @@ export default function SideBar() {
         <div className="sideBarMenu">
           <h3 className="sidBarTitle">Quick Menu</h3>
           <ul className="sideBarList">
-            <li className="sideBarListItem active">
-              <PermIdentityIcon className="sideBarIcon" />
-              Users
-            </li>
-            <li className="sideBarListItem">
-              <PermIdentityIcon className="sideBarIcon" />
-              New User
-            </li>
-            <li className="sideBarListItem">
-              <StorefrontIcon className="sideBarIcon" /> Products
-            </li>
+            <Link to="/users" className="link">
+              <li className="sideBarListItem active">
+                <PermIdentityIcon className="sideBarIcon" />
+                Users
+              </li>
+            </Link>
+            <Link to="/newUser" className="link">
+              <li className="sideBarListItem">
+                <PermIdentityIcon className="sideBarIcon" />
+                New User
+              </li>
+            </Link>
+            <Link to="/product" className="link">
+              <li className="sideBarListItem">
+                <StorefrontIcon className="sideBarIcon" /> Products
+              </li>
+            </Link>
             <li className="sideBarListItem">
               <AttachMoneyIcon className="sideBarIcon" />
               Transaction

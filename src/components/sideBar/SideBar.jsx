@@ -44,7 +44,7 @@ export default function SideBar() {
           <h3 className="sidBarTitle">Quick Menu</h3>
           <ul className="sideBarList">
             <Link to="/users" className="link">
-              <li className="sideBarListItem active">
+              <li className="sideBarListItem">
                 <PermIdentityIcon className="sideBarIcon" />
                 Users
               </li>
@@ -74,7 +74,7 @@ export default function SideBar() {
         <div className="sideBarMenu">
           <h3 className="sidBarTitle">Notifications</h3>
           <ul className="sideBarList">
-            <li className="sideBarListItem active">
+            <li className="sideBarListItem">
               <MailOutlineIcon className="sideBarIcon" />
               Mail
             </li>
@@ -93,7 +93,7 @@ export default function SideBar() {
         <div className="sideBarMenu">
           <h3 className="sidBarTitle">Staff</h3>
           <ul className="sideBarList">
-            <li className="sideBarListItem active">
+            <li className="sideBarListItem">
               <MessageOutlinedIcon className="sideBarIcon" />
               Manage
             </li>

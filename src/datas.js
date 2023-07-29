@@ -80,5 +80,47 @@ const transactions = [
     status: "Pending",
   },
 ];
+let userRows = [
+  {
+    id: 1,
+    username: "Reza",
+    avatar: "images/npm.png",
+    status: "active",
+    transaction: "$129",
+    email:'email@gmail.com'
+  },
+  {
+    id: 2,
+    username: "Zahra",
+    avatar: "images/npm.png",
+    status: "active",
+    transaction: "$259",
+    email:'email@gmail.com'
+  },
+  {
+    id: 3,
+    username: "Mohammad",
+    avatar: "images/npm.png",
+    status: "active",
+    transaction: "$87",
+    email:'email@gmail.com'
+  },
+  {
+    id: 4,
+    username: "Mohammad",
+    avatar: "images/npm.png",
+    status: "active",
+    transaction: "$19.85",
+    email:'email@gmail.com'
+  },
+  {
+    id: 5,
+    username: "Zarez",
+    avatar: "images/npm.png",
+    status: "active",
+    transaction: "$112.85",
+    email:'email@gmail.com'
+  },
+];
 
-export { xAxisData, newMembers, transactions };
+export { xAxisData, newMembers, transactions, userRows };

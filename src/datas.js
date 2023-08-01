@@ -161,4 +161,30 @@ let productRows = [
   },
 ];
 
-export { xAxisData, newMembers, transactions, productRows, userRows };
+const productData = [
+  {
+    name: "Jan",
+    sale: "490",
+  },
+  {
+    name: "Feb",
+    sale: "410",
+  },
+  {
+    name: "June",
+    sale: "770",
+  },
+  {
+    name: "Sep",
+    sale: "350",
+  },
+];
+
+export {
+  xAxisData,
+  newMembers,
+  transactions,
+  productRows,
+  userRows,
+  productData,
+};

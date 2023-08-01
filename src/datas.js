@@ -87,7 +87,7 @@ let userRows = [
     avatar: "images/npm.png",
     status: "active",
     transaction: "$129",
-    email:'email@gmail.com'
+    email: "email@gmail.com",
   },
   {
     id: 2,
@@ -95,7 +95,7 @@ let userRows = [
     avatar: "images/npm.png",
     status: "active",
     transaction: "$259",
-    email:'email@gmail.com'
+    email: "email@gmail.com",
   },
   {
     id: 3,
@@ -103,7 +103,7 @@ let userRows = [
     avatar: "images/npm.png",
     status: "active",
     transaction: "$87",
-    email:'email@gmail.com'
+    email: "email@gmail.com",
   },
   {
     id: 4,
@@ -111,7 +111,7 @@ let userRows = [
     avatar: "images/npm.png",
     status: "active",
     transaction: "$19.85",
-    email:'email@gmail.com'
+    email: "email@gmail.com",
   },
   {
     id: 5,
@@ -119,8 +119,46 @@ let userRows = [
     avatar: "images/npm.png",
     status: "active",
     transaction: "$112.85",
-    email:'email@gmail.com'
+    email: "email@gmail.com",
   },
 ];
 
-export { xAxisData, newMembers, transactions, userRows };
+let productRows = [
+  {
+    id: 1,
+    name: "laptop",
+    avatar: "images/npm.png",
+    status: "active",
+    price: "$129",
+  },
+  {
+    id: 2,
+    name: "phone",
+    avatar: "images/npm.png",
+    status: "active",
+    price: "$259",
+  },
+  {
+    id: 3,
+    name: "tablet",
+    avatar: "images/npm.png",
+    status: "active",
+    price: "$87",
+  },
+  {
+    id: 4,
+    name: "book",
+    avatar: "images/npm.png",
+    status: "active",
+    price: "$19.85",
+  },
+  {
+    id: 5,
+    name: "pen",
+    avatar: "images/npm.png",
+    status: "active",
+    price: "$112.85",
+  },
+];
+
+export { xAxisData, newMembers, transactions, productRows, userRows };
